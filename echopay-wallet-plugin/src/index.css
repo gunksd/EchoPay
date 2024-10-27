@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
